@@ -1,6 +1,11 @@
 package revature.fsd.project1.handler;
 
+import java.util.List;
+
 import revature.fsd.project1.app.App;
+import revature.fsd.project1.dao.AddHistoryDao;
+import revature.fsd.project1.dao.UserLogInDao;
+import revature.fsd.project1.model.Movie;
 
 
 public class MovieOptionHandler {
@@ -16,9 +21,12 @@ public class MovieOptionHandler {
 		}
 		else if(option ==2) {
 			System.out.println("Enter the Movie Id To Play The Movie:");
-			//int id=App.scanner.nextInt();
+			int id=App.scanner.nextInt();
+			int unique = UserLogInDao.id;
 			System.out.println("Movie is Playing....!");
 			System.out.println("Thanks for Watching The Movie");
+			AddHistoryDao add = new AddHistoryDao();
+			List<Movie> his = add.add(id, unique);
 			UserMenuHandler.menudisplay();
 		}
 		else {

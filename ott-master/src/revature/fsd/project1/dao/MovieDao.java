@@ -12,7 +12,7 @@ import revature.fsd.project1.model.Movie;
 
 public class MovieDao {
 	public List<Movie> findAll() {
-		String sql = "select * from department";
+		String sql = "select id,name from movie";
 		List<Movie> movies = new ArrayList<>();
 		try (
 			Connection connection = Util.getConnection();

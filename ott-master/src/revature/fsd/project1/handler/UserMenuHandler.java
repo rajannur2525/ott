@@ -11,7 +11,8 @@ public class UserMenuHandler {
 		System.out.println("2. Search Movies");
 		System.out.println("3. Your Wish List");
 		System.out.println("4. View History");
-		System.out.println("5. Logout");
+		System.out.println("5. View Movie List");
+		System.out.println("6. Logout");
 		System.out.println("Select an option: ");
 		int option = App.scanner.nextInt();
 		switch(option) {
@@ -25,9 +26,12 @@ public class UserMenuHandler {
 			ViewWishListHandler.display();
 			break;
 		case 4:
-			System.out.println("You select a Option 4");
+			ViewHistoryHandler.display();
+		//	System.out.println("You select a Option 4");
 			break;
 		case 5:
+			MovieHandler.displayMovies();
+		case 6:
 			System.out.println("Logout Successfully..");
 			MainMenuHandler.display();
 			break;

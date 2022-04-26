@@ -9,6 +9,7 @@ import revature.fsd.project1.app.App;
 import revature.fsd.project1.handler.UserMenuHandler;
 
 public class UserLogInDao {
+	public static int id;
 	public static void login() {
 	  
 	  System.out.println("Enter the user name : ");  
@@ -22,8 +23,11 @@ public class UserLogInDao {
 		) {
 			ResultSet rs = stmt.executeQuery();
 			if (rs.next())  {
+		        id=getUserIdDao.id(str1, str2);
 				   System.out.println("Welcome::: " + str1);  
 			        UserMenuHandler.menudisplay();
+
+			        
 			}
 				  else  
 				   System.out.println("Invalid user name and password Retry");

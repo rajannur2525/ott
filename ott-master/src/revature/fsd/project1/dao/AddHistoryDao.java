@@ -8,10 +8,10 @@ import java.util.List;
 
 import revature.fsd.project1.model.Movie;
 
-public class AddWishListDao {
-	public List<Movie> Movie(int id,int unique) {
+public class AddHistoryDao {
+	public List<Movie> add(int id,int unique) {
 		List<Movie> movie=new ArrayList<>();
-		String sql = "INSERT INTO wishlist (wishid,user_id) values(?,?)";
+		String sql = "INSERT INTO history (history,userid) values(?,?)";
 		try (
 				Connection connection = Util.getConnection();
 				PreparedStatement stmt = connection.prepareStatement(sql);

@@ -9,10 +9,10 @@ import java.util.List;
 
 import revature.fsd.project1.model.Movie;
 
-public class ViewWishListDao {
-	public List<Movie> vlmd(int id){
+public class ViewHistoryDao {
+	public List<Movie> showhis(int id){
 		List <Movie>vm= new ArrayList<>();
-	String sql = String.format("select * from wishlist inner join movie on wishid= movie.id inner join user on user_id=%d where user.id=%d", id,id);
+	String sql = String.format("select * from history inner join movie on history= movie.id inner join user on userid=%d where user.id=%d", id,id);
 	try (
 			Connection connection = Util.getConnection();
 			PreparedStatement stmt = connection.prepareStatement(sql);
@@ -20,7 +20,7 @@ public class ViewWishListDao {
 			ResultSet rs=stmt.executeQuery();
 			while(rs.next()) {
 				Movie mv=new Movie();
-				mv.setId(rs.getInt("wishid"));
+				mv.setId(rs.getInt("history"));
 				mv.setName(rs.getString("name"));
 				vm.add(mv);
 			}
@@ -32,5 +32,3 @@ public class ViewWishListDao {
 
 }
 }
-
-

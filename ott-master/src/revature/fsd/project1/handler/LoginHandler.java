@@ -3,9 +3,11 @@ package revature.fsd.project1.handler;
 import revature.fsd.project1.app.App;
 import revature.fsd.project1.dao.AdminLoginDao;
 import revature.fsd.project1.dao.UserLogInDao;
+import revature.fsd.project1.dao.getUserIdDao;
 
 
 public class LoginHandler {
+	public static int userid;
 	public static void logindisplay() {
 		System.out.println("Login Menu");
 		System.out.println("=============");
