@@ -33,7 +33,7 @@ Pix is an imaginary “Over The Top” (OTT) platform. Build an app for this OTT
 * It will start to copy the file.
 * After completing this step open the STS and select the folder.
 * Now click File->New->Java project.
-* Now give the project name as *Pix_OTT*.
+* Now give the project name as *ott*.
 * Now you can able to see all the packages in the left side by expanding the folder.
 >![image](https://user-images.githubusercontent.com/92349708/166428351-3d83b84c-9e73-4bc8-af22-f77155720a9c.png)
 ## Usage
