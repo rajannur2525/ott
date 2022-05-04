@@ -9,13 +9,15 @@ Pix is an imaginary “Over The Top” (OTT) platform. Build an app for this OTT
 ### Features
 * Movie can be added to wishlist.
 * History of user played movies can be seen.
-* Movie search based on genre and year.
+* Movie search based on keyword.
 * Top 5 movies will be displayed.
-* Can identify who is admin and who is user while login.
+* You can View the Movie List.
+* admin and user have a different login pages.
 ### Improvements
 * Movie search based on audience score
 * Whislist removal .
 * history removal.
+* Add Movies
 ## Getting started
 ### If using Windows
 * Install JDK 8 .
@@ -29,7 +31,6 @@ Pix is an imaginary “Over The Top” (OTT) platform. Build an app for this OTT
 * In the commandline enter the code .
 > **git clone https://github.com/rajannur2525/ott** 
 * It will start to copy the file.
-> ![image](https://user-images.githubusercontent.com/92349708/166427548-5e20efde-61be-4c9c-bf3d-ca106025b538.png)
 * After completing this step open the STS and select the folder.
 * Now click File->New->Java project.
 * Now give the project name as *Pix_OTT*.
