@@ -12,7 +12,7 @@ Pix is an imaginary “Over The Top” (OTT) platform. Build an app for this OTT
 * Movie search based on keyword.
 * Top 5 movies will be displayed.
 * You can View the Movie List.
-* admin and user have a different login pages.
+* Admin and User have a different login pages.
 ### Improvements
 * Movie search based on audience score
 * Whislist removal .
@@ -39,6 +39,5 @@ Pix is an imaginary “Over The Top” (OTT) platform. Build an app for this OTT
 ## Usage
 * To run the application expand the *com.revature.app* package and there will be a java file APP.java
 * Open that file and click on the run icon
->![Screenshot 2022-05-03 143654](https://user-images.githubusercontent.com/92349708/166429041-2198352f-94c7-49d9-9781-b79f3f6bc1df.png)
 ## License
 * All the technologies used in this project is open source
