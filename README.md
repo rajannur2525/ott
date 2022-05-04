@@ -31,13 +31,14 @@ OTT-Master is an imaginary “Over The Top” (OTT) platform. Build an app for t
 * In the commandline enter the code .
 > **git clone https://github.com/rajannur2525/ott** 
 * It will start to copy the file.
-* After completing this step open the STS and select the folder.
+* After completing this step open the STS and follow the steps below.
 * Now click File->New->Java project.
 * Now give the project name as *ott*.
 * Now you can able to see all the packages in the left side by expanding the folder.
->![image](https://user-images.githubusercontent.com/92349708/166428351-3d83b84c-9e73-4bc8-af22-f77155720a9c.png)
+* Now you add the MySQL driver in the ott package 
+* Rightclick on ott-Master->properties->Java Build Path->Add External Jar's-> select MySQl Driver 8.0 
 ## Usage
-* To run the application expand the *com.revature.app* package and there will be a java file APP.java
+* To run the application expand the *revature.fsd.project1.app* package and there will be a java file App.java
 * Open that file and click on the run icon
 ## License
 * All the technologies used in this project is open source
