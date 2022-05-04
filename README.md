@@ -27,7 +27,7 @@ Pix is an imaginary “Over The Top” (OTT) platform. Build an app for this OTT
 * Now go to the folder which is created and in the fileaddress type cmd.
 > ![Screenshot 2022-05-03 142035](https://user-images.githubusercontent.com/92349708/166427155-313424e0-913f-49d2-9109-112bfd3924d1.jpg)
 * In the commandline enter the code .
-> **git clone https://github.com/rajannur2525/ott/tree/main/ott-master** 
+> **git clone https://github.com/rajannur2525/ott** 
 * It will start to copy the file.
 > ![image](https://user-images.githubusercontent.com/92349708/166427548-5e20efde-61be-4c9c-bf3d-ca106025b538.png)
 * After completing this step open the STS and select the folder.
